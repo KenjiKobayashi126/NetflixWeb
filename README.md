@@ -4,17 +4,17 @@
 
 Một vài hình ảnh lấy trực tiếp từ code:
 
-##Index Tiếng Việt:
+<h2>Index Tiếng Việt:</h2>
 ![Index Tiếng Việt:](./image/index-vn.png)
 
-##Index English:
+<h2>Index English:</h2>
 ![Index English:](./image/index-en.png)
 
-##Login Page:
+<h2>Login Page:></h2>
 ![Login Page:](./image/login.png)
 
-##Browse Page:
+<h2>Browse Page:</h2>
 ![Browse Page:](./image/browse.png)
 
-##Watch Page:
+<h2>Watch Page:</h2>
 ![Watch Page:](./image/watch.png)
