@@ -2,6 +2,9 @@
 
 <h1>Chỉ là một cái web code vớ vẩn bắt chước Netflix thôi</h1>
 
+Muốn xem trước? Want to see it first ?
+* [Live Demo Here](https://netflix.hibikibanmai.xyz/)
+
 Một vài hình ảnh lấy trực tiếp từ code:
 
 <h2>Index Tiếng Việt:</h2>
