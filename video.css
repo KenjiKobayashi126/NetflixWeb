@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+.header {
+    display: flex;
+    overflow-x:hidden;
+}
+
+video {
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 70%;
+    height: 70%;
+}
+
+.header-logo img {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    height: 45px;
+    width: 145px;
+}
+
+
+h2, h3 {
+    color:white;
+    font-family: Segoe UI light;
+    padding-left: 30px;
+}
+
+img {
+    user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}

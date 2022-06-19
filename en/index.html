@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../logo.png" />
+    <link href="./style-main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <meta name="title" content="Netflix">
+    <meta name="description" content="Netflix hàng tự làm chưa có phim :)))">
+    <meta name="keywords" content="netflix">
+    <link rel="icon" type="image/png" href="../netflix-900x900.png">
+    <link rel="apple-touch-icon" type="image/png" href="../netflix-900x900.png">
+    <meta rel="canonical" href="https://netflix.hibikibanmai.xyz/">
+    <meta data-n-head="ssr" name="twitter:card" content="summary">
+    <meta data-n-head="ssr" name="twitter:site" content="@hibikibanmai">
+    <meta data-n-head="ssr" name="twitter:creator" content="@hibikibanmai">
+    <meta data-n-head="ssr" name="twitter:image" content="../logo.png">
+    <meta data-n-head="ssr" name="twitter:image:alt" content="Netflix Logo">
+    <meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:type" content="website">
+    <meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:locale" content="vi_VN">
+    <meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:site_name" content="Netflix By Sagiri Nozomi">
+    <meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:image" content="../Netflix.png">
+    <meta data-n-head="ssr" prefix="og: http://ogp.me/ns#" property="og:image:url" content="../Netflix.png">
+</head>
+<body>
+    <div class="hero">
+        <nav class="header">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="../Netflix.png">
+                </a>
+            </div>
+            <div class="menu">
+                <select name="language" id="lang" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="../en/index.html">English</option>
+                    <option value="../vn/index.html">Tiếng Việt</option>
+                </select>
+                <a href="/login.html" class="login">
+                    <button class="login">
+                        Login
+                    </button>
+                </a>
+            </div>
+        </nav>
+        <div class="story">
+            <h1 id="Main-text">
+                Unlimited movies, TV shows, and more.
+            </h1>
+            <h2 id="Sub-text">
+                Watch anywhere. Cancel anytime
+            </h2>
+            <form action="/register.html">
+                <h3 id="Sub-text">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </h3>
+                <input type="email" name="email" placeholder="Email address" minlength="5" maxlength="50" required>
+                    <button type="submit"><h2>Get Started</h2></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
